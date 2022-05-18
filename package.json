@@ -1,0 +1,33 @@
+{
+  "name": "projbase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WilliamDunbar/ProjBase.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WilliamDunbar/ProjBase/issues"
+  },
+  "homepage": "https://github.com/WilliamDunbar/ProjBase#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "helmet": "^5.1.0",
+    "mongoose": "^6.3.3",
+    "morgan": "^1.10.0",
+    "rotating-file-stream": "^2.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
